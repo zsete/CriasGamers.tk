@@ -1,0 +1,240 @@
+html{
+    color: whitesmoke;
+}
+body{
+    margin: 0 auto;
+    background-image: url(../img/Background/CriasBackground.png);
+    background-size: 100vw;
+}
+body::-webkit-scrollbar {
+    width: 12px;
+}
+body::-webkit-scrollbar-track {
+    background: #000
+  }
+body::-webkit-scrollbar-thumb {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border: 3px solid rgb(0, 0, 0); 
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.cabecalho .logo{
+    width: 500px;
+    padding: 20px;
+    padding-top: 30px;
+}
+.cabecalho .logo img{
+    padding-top: 20px;
+}
+.home {
+    display: flex;
+    justify-content: center;
+    min-height: 300px;
+    padding-top: 10vh;
+    padding-bottom: 25vh;
+}
+.home .informacoes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 80vw;
+    gap: 20px;
+}
+.home .informacoes .title h1{
+    font-family: "Poppins";
+    font-size: 60px;
+}
+.home .informacoes .text h2{
+    font-family: "Raleway";
+    font-size: 25px;
+    font-weight: 400;
+}
+.home .informacoes .end h1{
+    font-family: "Raleway";
+    font-size: 25px;
+    font-weight: 400;
+}
+.Players {
+    gap: 20px;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: 100vw;
+    background-image: url(../img/Background/PlayersBackground.png);
+}
+.Players .title img{
+    height: 100px;
+}
+.Players .adm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Poppins";
+    font-size: 30px;
+    padding-left: 10vw;
+    padding-right: 10px;
+    color: rgb(230, 164, 162);
+}
+.Players h1{
+    padding-right: 15px;
+    font-style: normal;
+}
+.Players .adm .redes{
+    display: flex;
+    justify-content: center;
+}
+.Players .adm .redes a{
+    display: flex;
+    padding: 15px;
+}
+.Players .adm .redes i{
+    display: flex;
+    align-items: center;
+}
+.Players .adm .redes h1{
+    padding-left: 18px; 
+    padding-right: 0px;
+    font-size: 26px;
+}
+.Players .adm .redes img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.Players .builders{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Poppins";
+    font-size: 30px;
+    padding-left: 10vw;
+    padding-right: 10px;
+    color: #81eeee;
+}
+.Players .builders .redes{
+    display: flex;
+    justify-content: center;
+}
+.Players .builders .redes a{
+    display: flex;
+    padding: 15px;
+}
+.Players .builders .redes i{
+    display: flex;
+    align-items: center;
+}
+.Players .builders .redes h1{
+    padding-left: 18px; 
+    padding-right: 0px;
+    font-size: 26px;
+}
+.Players .builders .redes img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.Players .alpha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Poppins";
+    font-size: 30px;
+    padding-left: 10vw;
+    padding-right: 10px;
+    color: #bad9f8;
+}
+.Players .alpha .redes{
+    display: flex;
+    justify-content: center;
+}
+.Players .alpha .redes a{
+    display: flex;
+    padding: 15px;
+}
+.Players .alpha .redes i{
+    display: flex;
+    align-items: center;
+}
+.Players .alpha .redes h1{
+    padding-left: 18px; 
+    padding-right: 0px;
+    font-size: 26px;
+}
+.Players .alpha .redes img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.Players .beta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Poppins";
+    font-size: 30px;
+    padding-left: 10vw;
+    padding-right: 10px;
+    color: #7bfa7b;
+}
+.Players .beta .redes{
+    display: flex;
+    justify-content: center;
+}
+.Players .beta .redes a{
+    display: flex;
+    padding: 15px;
+}
+.Players .beta .redes i{
+    display: flex;
+    align-items: center;
+}
+.Players .beta .redes h1{
+    padding-left: 18px; 
+    padding-right: 0px;
+    font-size: 26px;
+}
+.Players .beta .redes img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.Players .membro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Poppins";
+    font-size: 30px;
+    padding-left: 10vw;
+    padding-right: 10px;
+    color: #92a8b3;
+}
+.Players .membro .redes{
+    display: flex;
+    justify-content: center;
+}
+.Players .membro .redes a{
+    display: flex;
+    padding: 15px;
+}
+.Players .membro .redes i{
+    display: flex;
+    align-items: center;
+}
+.Players .membro .redes h1{
+    padding-left: 18px; 
+    padding-right: 0px;
+    font-size: 26px;
+}
+.Players .membro
+ .redes img{
+    width: 80px;
+    border-radius: 50%;
+}

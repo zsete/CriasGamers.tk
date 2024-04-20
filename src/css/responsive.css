@@ -1,0 +1,216 @@
+@media (max-width: 769px) {
+    body{
+        font-size: 16px;
+    }
+    .cabecalho .logo{
+        width: 370px;
+    }
+    .home{
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .home .informacoes .title h1{
+        font-size: 51px;
+        padding-bottom: 0px;
+    }
+    .home .informacoes .text h2{
+        font-size: 23px;
+    }
+    .home .informacoes .end h1{
+        font-size: 23px;
+    }
+    .Players {
+        gap: 10px;
+        padding: 15px;
+        height: 100vh;
+    }
+    .Players .title img{
+        height: 55px;
+    }
+    .Players .membros{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .Players .adm{
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        padding: 0px;
+    }
+    .Players h1{
+        padding-right: 0px;
+        font-style: normal;
+    }
+    .Players .adm .redes a{
+        padding: 10px;
+        height: 77px;
+    }
+    .Players .adm .redes h1{
+        padding-left: 10px; 
+        padding-right: 0px;
+        font-size: 22px;
+    }
+    .Players .adm .redes img{
+        width: 70px;
+    }
+
+    .Players .builders{
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        padding: 0px;
+    }
+    .Players .builders .redes {
+        flex-wrap: wrap;
+    }
+    .Players .builders .redes a{
+        padding: 10px;
+        height: 77px;
+    }
+    .Players .builders .redes h1{
+        padding-left: 10px; 
+        padding-right: 0px;
+        font-size: 22px;
+    }
+    .Players .builders .redes img{
+        width: 70px;
+    }
+    
+    .Players .alpha{
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        padding: 0px;
+    }
+    .Players .alpha .redes {
+        flex-wrap: wrap;
+    }
+    .Players .alpha .redes a{
+        padding: 10px;
+        height: 77px;
+    }
+    .Players .alpha .redes h1{
+        padding-left: 10px; 
+        padding-right: 0px;
+        font-size: 22px;
+    }
+    .Players .alpha .redes img{
+        width: 70px;
+    }
+    
+    .Players .beta{
+        display: none;
+    }
+    .Players .membro{
+        display: none;
+    }
+}
+@media (max-width: 400px){
+    body{
+        font-size: 10px;
+    }
+    .cabecalho .logo{
+        width: 330px;
+    }
+    .home{
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .home .informacoes .title h1{
+        font-size: 37px;
+        padding-bottom: 0px;
+    }
+    .home .informacoes .text h2{
+        font-size: 20px;
+    }
+    .home .informacoes .end h1{
+        font-size: 20px;
+    }
+    .Players {
+        gap: 30px;
+        padding: 15px;
+        height: 100vh;
+    }
+    .Players .title img{
+        height: 55px;
+    }
+    .Players .membros{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .Players .adm{
+        flex-direction: column;
+        align-items: center;
+        font-size: 18px;
+        padding: 0px;
+    }
+    .Players h1{
+        padding-right: 0px;
+        font-style: normal;
+    }
+    .Players .adm .redes a{
+        padding: 10px;
+        height: 77px;
+    }
+    .Players .adm .redes h1{
+        padding-left: 10px; 
+        padding-right: 0px;
+        font-size: 16px;
+    }
+    .Players .adm .redes img{
+        width: 50px;
+    }
+
+    .Players .builders{
+        flex-direction: column;
+        align-items: center;
+        font-size: 18px;
+        padding: 0px;
+    }
+    .Players .builders .redes {
+        flex-wrap: wrap;
+    }
+    .Players .builders .redes a{
+        padding: 10px;
+        height: 77px;
+    }
+    .Players .builders .redes h1{
+        padding-left: 10px; 
+        padding-right: 0px;
+        font-size: 16px;
+    }
+    .Players .builders .redes img{
+        width: 50px;
+    }
+    
+    .Players .alpha{
+        flex-direction: column;
+        align-items: center;
+        font-size: 18px;
+        padding: 0px;
+    }
+    .Players .alpha .redes {
+        flex-wrap: wrap;
+    }
+    .Players .alpha .redes a{
+        padding: 10px;
+        height: 77px;
+    }
+    .Players .alpha .redes h1{
+        padding-left: 10px; 
+        padding-right: 0px;
+        font-size: 16px;
+    }
+    .Players .alpha .redes img{
+        width: 50px;
+    }
+    
+    .Players .beta{
+        display: none;
+    }
+    .Players .membro{
+        display: none;
+    }
+}
